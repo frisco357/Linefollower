@@ -1,0 +1,185 @@
+{
+  "uuid": "f84bee1d09dc2f6874a8cf360b08260b",
+  "path": "Offline/lijnvolger plan B",
+  "name": "lijnvolger plan B",
+  "content": "",
+  "created_at": "2023-10-05 22:21:24",
+  "updated_at": "2023-10-05 22:21:24",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "190d33c904431a0e2ef65cfe74041353",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "4bda51e9638546769dd5a94b4e72124c": 2,
+        "a07b4cefa8374210a9f42f4e20def853": 1,
+        "3c3166de08e0426e940fb22fd15da004": 1,
+        "5d613efbfe5d4ffea7e324d4684971a0": 2,
+        "6e6d67012cd247939a77ce0cb00acf5d": 2,
+        "4dda8027c835402ab6dbdc9fd54b4799": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BH-18650",
+          2,
+          "BAT-TH_BH-18650",
+          "BAT1,BAT2",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017971",
+            "Manufacturer": "null",
+            "Manufacturer Part": "BH-18650",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900017971&%26type=1&ref=editor",
+            "spiceSymbolName": "BH-18650",
+            "puuid": "eff73616b67a49b49045dd045b79ffd9",
+            "uuid": "5d613efbfe5d4ffea7e324d4684971a0"
+          }
+        ],
+        [
+          "HC 06",
+          1,
+          "HDR-F-2.54_1X4",
+          "BT1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "RikiDev Company",
+            "spiceSymbolName": "HC 06",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "3c3166de08e0426e940fb22fd15da004"
+          }
+        ],
+        [
+          "Motor_DC",
+          2,
+          "CONN-TH_2P-P5.08",
+          "M1,M2",
+          {
+            "description": "",
+            "Contributor": "KiCAD",
+            "license": "https://www.gnu.org/licenses/lgpl-2.1.html",
+            "spiceSymbolName": "Motor_DC",
+            "Manufacturer Part": "",
+            "puuid": "e51909bf23504bf8a04c047f1f5257e0",
+            "uuid": "4bda51e9638546769dd5a94b4e72124c"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879",
+            "Manufacturer": "null",
+            "Manufacturer Part": "ARDUINO_NANO",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C9900017879&%26type=1&ref=editor",
+            "spiceSymbolName": "ARDUINO_NANO",
+            "puuid": "ff6e2030776d4574a7594ce501bb86c5",
+            "uuid": "b7adf400643b4936be8b786704d0e70f"
+          }
+        ],
+        [
+          "aan/uit",
+          1,
+          "DIP SWITCH 6 SWITCHES",
+          "U2",
+          {
+            "Supplier": "",
+            "Manufacturer": "DIP",
+            "Manufacturer Part": "DIP switchEI-08",
+            "Supplier Part": "C90019",
+            "Contributor": "s6104031620126",
+            "libConvert": "Yes",
+            "Add into BOM": "Yes",
+            "spiceSymbolName": "SWITCH",
+            "puuid": "752d4ecbf4654b3cb0baf4cf85e54bfb",
+            "uuid": "6e6d67012cd247939a77ce0cb00acf5d"
+          }
+        ],
+        [
+          "QTR-8A",
+          1,
+          "QTR-8A/8RC",
+          "U3",
+          {
+            "Manufacturer": "Pololu",
+            "Manufacturer Part": "QTR-8A",
+            "Supplier": "Pololu",
+            "Supplier Part": "960",
+            "link": "https://www.pololu.com/docs/pdf/0J12/QTR-8x.pdf",
+            "Contributor": "Junikos",
+            "spiceSymbolName": "QTR-8A",
+            "puuid": "e5d52ad1a8f146c68fb856bd806ad6d9",
+            "uuid": "a07b4cefa8374210a9f42f4e20def853"
+          }
+        ],
+        [
+          "power",
+          1,
+          "DIP SWITCH 6 SWITCHES",
+          "U4",
+          {
+            "Supplier": "",
+            "Manufacturer": "DIP",
+            "Manufacturer Part": "DIP switchEI-08",
+            "Supplier Part": "C90019",
+            "Contributor": "s6104031620126",
+            "libConvert": "Yes",
+            "Add into BOM": "Yes",
+            "spiceSymbolName": "SWITCH",
+            "puuid": "752d4ecbf4654b3cb0baf4cf85e54bfb",
+            "uuid": "6e6d67012cd247939a77ce0cb00acf5d"
+          }
+        ],
+        [
+          "DRV8835  Polulu",
+          1,
+          "DRV8835",
+          "U5",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "DRV8835",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "muneebr1",
+            "spiceSymbolName": "Pololu Dual Motor Driver",
+            "puuid": "d0c7d96deac345b68ac5f76f8edf8f5b",
+            "uuid": "4dda8027c835402ab6dbdc9fd54b4799"
+          }
+        ]
+      ],
+      "updateTime": 1696537284,
+      "createTime": 1696537284,
+      "histories": [],
+      "created_at": "2023-10-05 22:21:24",
+      "updated_at": "2023-10-05 22:21:24"
+    }
+  ],
+  "sort": [],
+  "title": "lijnvolger plan B",
+  "foldername": "lijnvolger plan B",
+  "schfilename": "lijnvolger plan B.json",
+  "schfilemtime": 1696537284753
+}

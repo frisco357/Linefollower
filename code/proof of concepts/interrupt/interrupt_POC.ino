@@ -1,5 +1,5 @@
 int ledPin = 13;
-int interruptPin = 3;
+int interruptPin = 2;
 bool running;
 
 void setup() 

@@ -1,7 +1,7 @@
 #include "SerialCommand.h"
 #include "EEPROMAnything.h"
 
-#define SerialPort Serial1
+
 #define Baudrate 9600
 
 #define MotorLeftForward 6

@@ -14,33 +14,27 @@ void setup() {
 }
  
 void loop() {
-  
-  digitalWrite(AIN1,HIGH); 
-  digitalWrite(AIN2,LOW);
-  digitalWrite(BIN1,HIGH); 
-  digitalWrite(BIN2,LOW);
+
+
+  for(int i = 0; i<=255;i++){
+    analogWrite(AIN1,i);
+    analogWrite(BIN1,i); 
+    delay(10);
+  }
+
+  digitalWrite(AIN1,LOW); 
+  digitalWrite(BIN1,LOW); 
 
   delay(1000);
-  
-  digitalWrite(AIN1,LOW); 
-  digitalWrite(AIN2,LOW);
-  digitalWrite(BIN1,LOW); 
-  digitalWrite(BIN2,LOW);
-  
-  delay(1000);
-  
-  digitalWrite(AIN1,LOW); 
-  digitalWrite(AIN2,HIGH);
-  digitalWrite(BIN1,LOW); 
-  digitalWrite(BIN2,HIGH);
 
-  delay(1000);
-  
-  digitalWrite(AIN1,LOW); 
+  for(int i = 0; i<=255;i++){
+    analogWrite(AIN2,i);
+    analogWrite(BIN2,i); 
+    delay(10);
+  }
+
   digitalWrite(AIN2,LOW);
-  digitalWrite(BIN1,LOW); 
   digitalWrite(BIN2,LOW);
-  
   delay(1000);
-   
+
 }

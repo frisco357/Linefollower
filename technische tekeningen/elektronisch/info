@@ -1,10 +1,10 @@
 {
   "uuid": "f84bee1d09dc2f6874a8cf360b08260b",
-  "path": "Offline/lijnvolger plan B",
+  "path": "Offline/lijnvolger%20plan%20B",
   "name": "lijnvolger plan B",
   "content": "",
   "created_at": "2023-10-05 22:21:24",
-  "updated_at": "2023-10-05 22:21:24",
+  "updated_at": "2023-11-15 23:14:59",
   "stick": "",
   "documents": [
     {
@@ -21,7 +21,7 @@
         "3c3166de08e0426e940fb22fd15da004": 1,
         "5d613efbfe5d4ffea7e324d4684971a0": 2,
         "6e6d67012cd247939a77ce0cb00acf5d": 2,
-        "4dda8027c835402ab6dbdc9fd54b4799": 1
+        "1ff71c01c3794668ab41ed2d2561c9ce": 1
       },
       "BOM": [
         [
@@ -153,33 +153,33 @@
           }
         ],
         [
-          "DRV8835  Polulu",
+          "",
           1,
-          "DRV8835",
+          "ADAFRUIT DRV8833",
           "U5",
           {
             "Manufacturer": "",
-            "Manufacturer Part": "DRV8835",
+            "Manufacturer Part": "Adafruit",
             "Supplier Part": "",
             "Supplier": "",
-            "link": "",
-            "Contributor": "muneebr1",
-            "spiceSymbolName": "Pololu Dual Motor Driver",
-            "puuid": "d0c7d96deac345b68ac5f76f8edf8f5b",
-            "uuid": "4dda8027c835402ab6dbdc9fd54b4799"
+            "link": "https://www.adafruit.com/product/3297",
+            "Contributor": "Dean OConnor",
+            "spiceSymbolName": "Adafruit DRV8833 Breakout",
+            "puuid": "8f6973bff157431aaffe308d5b7036d4",
+            "uuid": "1ff71c01c3794668ab41ed2d2561c9ce"
           }
         ]
       ],
-      "updateTime": 1696537284,
+      "updateTime": 1700086499,
       "createTime": 1696537284,
       "histories": [],
       "created_at": "2023-10-05 22:21:24",
-      "updated_at": "2023-10-05 22:21:24"
+      "updated_at": "2023-11-15 23:14:59"
     }
   ],
   "sort": [],
   "title": "lijnvolger plan B",
   "foldername": "lijnvolger plan B",
   "schfilename": "lijnvolger plan B.json",
-  "schfilemtime": 1696537284753
+  "schfilemtime": 1700086499052
 }

@@ -64,9 +64,7 @@ void loop()
     float position = 0;
     for (int i = 1; i < 8; i++) if (normalised[i] < normalised[index]) index = i;
 
-    //als hij uit de bocht vliegt of niet op een parcour staat stop hem
-    if (normalised[index] > 800) running = false;
-    
+   
     
     if (index == 0) index = 1;
     else if (index == 7) index = 6;
